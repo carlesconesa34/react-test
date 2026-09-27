@@ -4,7 +4,7 @@ import { Saludo } from './Saludo';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Saludo/>
+      <Saludo lang="es"/>
     </View>
   );
 }

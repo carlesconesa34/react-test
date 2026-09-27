@@ -1,9 +1,16 @@
 import { StyleSheet, Text } from 'react-native';
 
+const translations = {
+  es: 'Hola',
+  en: 'Hello',
+};
+
 // Componente Saludo
-export function Saludo(props) {
+export function Saludo({ lang = 'en' }) {
+  const greeting = translations[lang]
+
   return (
-      <Text style={styles.title}>Hello, React Native!</Text>
+      <Text style={styles.title}>{greeting}, React Native!</Text>
   );
 }
 
