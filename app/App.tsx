@@ -1,5 +1,5 @@
 import { StyleSheet, View } from 'react-native';
-import { Saludo } from './Saludo';
+import { Saludo } from './components/Saludo';
 
 export default function App() {
   return (
