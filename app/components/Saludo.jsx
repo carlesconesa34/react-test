@@ -10,7 +10,7 @@ export function Saludo({ lang = 'en' }) {
   const greeting = translations[lang]
 
   return (
-      <Text style={styles.title}>{greeting}, React Native!</Text>
+      <Text style={styles.title}>{greeting}!</Text>
   );
 }
 
